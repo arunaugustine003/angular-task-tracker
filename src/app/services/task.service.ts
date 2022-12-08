@@ -12,7 +12,7 @@ const httpOptions = {
   providedIn: 'root',
 })
 export class TaskService {
-  private apiUrl = 'https://angular-task-tracker-db.herokuapp.com/tasks';
+  private apiUrl = 'https://task-tracker-db-by-arun.glitch.me/tasks';
 
   constructor(private http: HttpClient) {}
   getTasks(): Observable<Task[]> {
